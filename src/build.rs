@@ -51,6 +51,7 @@ pub fn main() -> Result<(), Error> {
         .launch
         .append_path
         .set_var("MIDDLEWARE_FUNCTION_URI", middleware_layer.layer_path());
+    middleware_layer.write_envs()?;
 
     println!("Running npm install");
     let mut command = Command::new("npm")
