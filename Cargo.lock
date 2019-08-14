@@ -134,7 +134,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "libbuildpack"
 version = "0.1.0"
-source = "git+https://github.com/hone/libbuildpack.rs#198285a20b18b48cfc0256faa13f80ed1b9d5b99"
+source = "git+https://github.com/hone/libbuildpack.rs#77ee2c90c9f62680e04dac4d2b30f94f30560560"
 dependencies = [
  "failure 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.98 (registry+https://github.com/rust-lang/crates.io-index)",
