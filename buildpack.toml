@@ -1,0 +1,7 @@
+[buildpack]
+id = "heroku/node-plus-100"
+version = "0.1.0"
+name = "Node + 100"
+
+[[stacks]]
+id = "heroku-18"

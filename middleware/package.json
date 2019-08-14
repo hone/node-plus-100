@@ -1,0 +1,15 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "function middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-function-middleware"
+  },
+  "author": "heroku",
+  "license": "MIT"
+}

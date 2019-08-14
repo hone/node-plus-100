@@ -1,0 +1,21 @@
+[package]
+name = "node-plus-100-middleware"
+version = "0.1.0"
+authors = ["Travis Longoria <longoria.public@gmail.com>", "Terence Lee <hone02@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "detect"
+path = "src/detect.rs"
+
+[[bin]]
+name = "bin-build"
+path = "src/build.rs"
+
+[dependencies]
+failure = "0.1.5"
+libbuildpack = { git = "https://github.com/hone/libbuildpack.rs" }
+structopt = "0.2.10"
+
+[dev-dependencies]
+assert_cmd = "0.11"
